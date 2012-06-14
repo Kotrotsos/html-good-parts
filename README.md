@@ -16,7 +16,7 @@ If you knew the following was possible, congratulations- you belong to a very se
 If the image returns an error (404)- the javascript statement will fire. The Javascript could contain an alert, but- also 
 a placeholder image for instance. 
 
-One way to do this:
+One way to do this (I'm using jQuery here, but you can use anything)
 
       <img onerror="$(this).attr('src','http://ragecomics.com/-img/4f03e7fb1861333a8400308f.png');" src="deadimage.jpg">
 
