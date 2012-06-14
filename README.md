@@ -8,7 +8,7 @@ When talking about HTML, I do mean HTML and not XHTML.
 
 This all will serve as a placeholder until there is enough content to structure.
 
-Image not found detection
+### Image not found detection
 If you knew the following was possible, congratulations- you belong to a very select group.
 
     <img onerror="{doSomeJavascript}" src="image.jpg>
