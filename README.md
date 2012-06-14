@@ -31,11 +31,17 @@ There are many more void elements. HTML5 recommendation outlines the following e
 
 area, base, br, col, command, embed, hr, img, input, keygen, link, meta, param, source, track, wbr
 
-So it's perfectly ok to do <br> instead of <br/> (which is actually XHTML) or <input value="x"> instead of closing it. 
+So it's perfectly ok to do 
+    <br> 
+instead of 
+    <br/> 
+(which is actually XHTML) or 
+    <input value="x"> 
+instead of closing it. 
 
 This creates a nice little bridge to the wbr element.
 
-### <wbr>
+### wbr
 
 According to the W3C recommendation, wbr represents a word break oppertunity. This means that, wherever this tag is inserted in
 a long word- the word will break if needed on that spot.
