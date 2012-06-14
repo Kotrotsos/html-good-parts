@@ -22,6 +22,7 @@ One way to do this:
 
 So when deadimage.jpg cannot be found, it will show a nice little rage comic.
 
+Void elements.
 Brings me to the following, and that is that the img element is a void element. That means you never need to close it.
     
     <img src="image.jpg" /> <!-- Invalid -->
