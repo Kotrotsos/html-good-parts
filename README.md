@@ -45,7 +45,7 @@ instead of
 
 instead of closing it. 
 
-This creates a nice little bridge to the wbr element.
+This creates a nice little bridge to the wbr element (also beeing a void element)
 
 ### wbr
 
