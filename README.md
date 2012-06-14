@@ -27,4 +27,23 @@ Brings me to the following, and that is that the img element is a void element. 
     
     <img src="image.jpg" /> <!-- Invalid -->
 
-There are many more void elements. Like ...
+There are many more void elements. HTML5 recommendation outlines the following elements as beeing void:
+
+area, base, br, col, command, embed, hr, img, input, keygen, link, meta, param, source, track, wbr
+
+So it's perfectly ok to do <br> instead of <br/> (which is actually XHTML) or <input value="x"> instead of closing it. 
+
+This creates a nice little bridge to the wbr element.
+
+### <wbr>
+
+According to the W3C recommendation, wbr represents a word break oppertunity. This means that, wherever this tag is inserted in
+a long word- the word will break if needed on that spot.
+
+So
+
+    This text has a very long word in it, jabbarwocky<wbr>jockyjoo
+    
+Will break right after jabbarwocky, and jockyjoo will continue on the next line. 
+
+Small example usage here http://dabblet.com/gist/2930298
