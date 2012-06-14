@@ -13,9 +13,17 @@ If you knew the following was possible, congratulations- you belong to a very se
 
     <img onerror="{doSomeJavascript}" src="image.jpg>
     
-If the image returns an error (404)- the javascript statement will fire. 
+If the image returns an error (404)- the javascript statement will fire. The Javascript could contain an alert, but- also 
+a placeholder image for instance. 
+
+One way to do this:
+
+      <img onerror="$(this).attr('src','http://ragecomics.com/-img/4f03e7fb1861333a8400308f.png');" src="deadimage.jpg">
+
+So when deadimage.jpg cannot be found, it will show a nice little rage comic.
 
 Brings me to the following, and that is that the img element is a void element. That means you never need to close it.
     
     <img src="image.jpg" /> <!-- Invalid -->
 
+There are many more void elements. Like ...
