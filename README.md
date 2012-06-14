@@ -2,7 +2,7 @@ HTML (And CSS) The Good Parts
 ===============
 
 This is by no means as good as Javascript- the Good Parts by Douglas Crockford. However I wanted a place to highlight some of the
-lesser known niceities that come with HTML. 
+lesser known niceities that come with HTML. It is not complete- I just started writing.
 
 When talking about HTML, I do mean HTML and not XHTML.
 
