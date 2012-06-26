@@ -38,7 +38,7 @@ area, base, br, col, command, embed, hr, img, input, keygen, link, meta, param, 
 
 So it's perfectly ok to do
 
-    `<br>` instead of `<br/>` 
+`<br>` instead of `<br/>` 
 
 (which is actually XHTML) or `<input value="x">` instead of closing it. 
 
