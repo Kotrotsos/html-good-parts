@@ -1,12 +1,17 @@
 HTML (And CSS) The Good Parts
 ===============
 
-This is by no means as good as Javascript- the Good Parts by Douglas Crockford. However I wanted a place to highlight some of the
+This is by no means as good as (Or has anything to do with) Javascript- the Good Parts by Douglas Crockford. However I wanted a place to highlight some of the
 lesser known niceities that come with HTML. It is not complete- I just started writing.
 
 When talking about HTML, I do mean HTML and not XHTML.
 
 This all will serve as a placeholder until there is enough content to structure.
+
+
+### the HTML5 Doctype
+
+---
 
 ### Image not found detection
 If you knew the following was possible, congratulations- you belong to a very select group.
@@ -33,17 +38,9 @@ area, base, br, col, command, embed, hr, img, input, keygen, link, meta, param, 
 
 So it's perfectly ok to do
 
-    <br> 
+    `<br>` instead of `<br/>` 
 
-instead of 
-
-    <br/> 
-
-(which is actually XHTML) or 
-
-    <input value="x"> 
-
-instead of closing it. 
+(which is actually XHTML) or `<input value="x">` instead of closing it. 
 
 This creates a nice little bridge to the wbr element (also beeing a void element)
 
