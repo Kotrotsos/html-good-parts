@@ -11,7 +11,7 @@ This all will serve as a placeholder until there is enough content to structure.
 
 ### the HTML5 Doctype
 
----
+[todo]
 
 ### Image not found detection
 If you knew the following was possible, congratulations- you belong to a very select group.
