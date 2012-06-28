@@ -62,8 +62,12 @@ Small example usage here http://dabblet.com/gist/2930298
 "The hidden attribute is a boolean attribute. When specified on an element, it indicates that the element is not yet, or is no longer, relevant. 
 User agents should not render elements that have the hidden attribute specified."
 
+This attribute is meant to denote an element that has a state of visible or hidden (and not relevant anymore)- across all presentations. Like a display:none; on steroids.
+It will be hidden- in any case, no matter what, until a change in state has occured. For instance, for a login box. 
+
     <p id="loggedin" hidden>This will only be visible when the state is loggedIn</p>
 
 You can hide or show the element using the (when supported) corresponding method
 
     document.getElementById('loggedin').hidden = false;​// or true
+
