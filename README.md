@@ -56,3 +56,14 @@ So
 Will break right after jabbarwocky, and jockyjoo will continue on the next line. 
 
 Small example usage here http://dabblet.com/gist/2930298
+
+### hidden attribute (Currently a W3C Working Draft) 
+
+"The hidden attribute is a boolean attribute. When specified on an element, it indicates that the element is not yet, or is no longer, relevant. 
+User agents should not render elements that have the hidden attribute specified."
+
+    <p id="loggedin" hidden>This will only be visible when the state is loggedIn</p>
+
+You can hide or show the element using the (when supported) corresponding method
+
+    document.getElementById('loggedin').hidden = false;​// or true
