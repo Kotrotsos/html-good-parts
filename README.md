@@ -70,4 +70,19 @@ It will be hidden- in any case, no matter what, until a change in state has occu
 You can hide or show the element using the (when supported) corresponding method
 
     document.getElementById('loggedin').hidden = false;​// or true
+    
+### Protocol relative URL (i.e. never show security messages anymore when using mixed http and https content) ###
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+    
+It is getting more and more popular, but it's worth mentioning here that if you omit the protocol from the URL, so instead of writing
+
+    http://ajax ... 
+    https://ajax ...
+    
+you write it like mentioned before- the browser figures out which protocol (http or https) to use. 
+
+So if  you have http content (or content served from non https locations) and the page expects https. You will get that 'not secure content ... etc' error message.
+
+There are edge-cases where this does not work as expected (Calling IE6 an edgecase here) but for the most part it will work just fine.
 
