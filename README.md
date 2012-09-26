@@ -56,6 +56,8 @@ So
 Will break right after jabbarwocky, and jockyjoo will continue on the next line. 
 
 Small example usage here http://dabblet.com/gist/2930298
+Keep in mind though, that the use of wbr is considered bad practice these day's. However there are situations where it will come
+in handy- possibly when using a CMS and you don't have control over textflow.
 
 ### hidden attribute (Currently a W3C Working Draft) 
 
